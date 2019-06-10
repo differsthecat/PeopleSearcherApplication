@@ -1,0 +1,127 @@
+
+div {
+    // Global font family  
+    font-family: Helvetica, sans-serif;
+}
+
+div.top-spacer {
+    height: 15em;
+}
+
+div.middle {
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+div.spacer {
+    height: 2em;
+}
+
+h1 {
+    font-size: 3em;
+    margin-top: 0;
+}
+
+::placeholder { 
+    color: rgb(121, 121, 121);
+    opacity: 1; 
+  }
+
+// Fix for ngx-spinner not being full screen on scroll  
+.loader ::ng-deep .overlay{
+    position: fixed !important;
+ }
+
+i {
+    transition: all .2s linear;
+    color: white;
+    opacity: 0.70;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 2.2em;
+}
+
+i:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+#pic {
+    object-fit: cover; 
+    border-radius:7px;
+    cursor: pointer;
+}
+
+span {
+    margin-left: 5px;
+}
+
+input.search {
+    transition: all .2s linear;
+    color: #006e9a;
+    opacity: 0.70;
+    padding: .9em 1.8em;
+    border: none;
+    border-radius: 4px;
+    width: 300px;
+}
+
+input.search:focus {
+    opacity: 1;
+    // Makes behavior across browsers consitent
+    outline: thin dotted; 
+}
+
+input.search:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+table.center {
+    transition: display .2s linear;
+    margin-left:auto; 
+    margin-right:auto;
+    border-spacing: 1;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    max-width: 1000px;
+    width: 100%;
+}
+
+table thead tr {
+    height: 60px;
+    background: #006dcc;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f5f5f5;
+}
+
+tbody tr:hover:nth-child(even) {
+    background-color: #ececec;
+}
+
+tbody tr {
+    font-size: 15px;
+    color: #808080;
+    line-height: 1.2;
+    font-weight: unset;
+}
+  
+  tbody tr:hover {
+    color: #555555;
+    background-color: #ececec;
+    cursor: default;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+  }

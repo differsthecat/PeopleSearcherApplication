@@ -1,0 +1,63 @@
+<ngx-spinner class="loader" bdColor="rgba(255,255,255,0.5)" size="Large" color="#1e88e5" type="ball-spin">
+</ngx-spinner>
+<div class="top-spacer"></div>
+<div class="middle">
+  <h1> People Searcher </h1>
+  <input class="search" type="text" placeholder="Search" [(ngModel)]="searchText" (keyup.enter)="searchPeople()">
+  <span></span>
+  <a (click)="searchPeople()">
+    <i class="fa fa-search"></i>
+  </a>
+</div>
+<div class="middle" *ngIf="noResults">
+  <h2> No Results </h2>
+</div>
+<div *ngIf="!noPeople">
+  <!--Table-->
+  <div class="spacer"></div>
+  <table class="center" hover="true">
+    <!--Table head-->
+    <thead>
+      <tr>
+        <th>
+        </th>
+        <th class="th-lg">
+          Picture
+        </th>
+        <th class="th-lg">
+          First Name
+        </th>
+        <th class="th-lg">
+          Last Name
+        </th>
+        <th class="th-lg">
+          Address
+        </th>
+        <th class="th-lg">
+          Age
+        </th>
+        <th class="th-lg">
+          Interests
+        </th>
+      </tr>
+    </thead>
+    <!--Table head-->
+
+    <!--Table body-->
+    <tbody>
+      <tr *ngFor="let person of people;">
+        <th scope="row">
+        </th>
+        <td>
+          <img id="pic" [src]="person.picUrl != null ? person.picUrl : placeholderPicUrl" height="65" width="65">
+        </td>
+        <td>{{person.firstName}}</td>
+        <td>{{person.lastName}}</td>
+        <td>{{person.address}}</td>
+        <td>{{person.age}}</td>
+        <td>{{person.interests}}</td>
+      </tr>
+    </tbody>
+    <!--Table body-->
+  </table>
+</div>
