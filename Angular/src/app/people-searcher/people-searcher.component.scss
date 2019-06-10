@@ -44,13 +44,13 @@ i {
 
 i:hover {
     opacity: 1;
-    cursor: pointer;
+    cursor: default;
 }
 
 #pic {
     object-fit: cover; 
     border-radius:7px;
-    cursor: pointer;
+    cursor: default;
 }
 
 span {
