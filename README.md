@@ -2,7 +2,7 @@
 
 Welcome to PeopleSearcher! This is a .NET WebAPI application with an Angular 8 front-end. It uses Code First Entity Framework to seed a test database.
 
-![]([https://rmcute-people-searcher.s3.us-east-2.amazonaws.com/PeopleSearcherCapture.PNG](https://rmcute-people-searcher.s3.us-east-2.amazonaws.com/PeopleSearcherCapture.PNG))
+![image](https://rmcute-people-searcher.s3.us-east-2.amazonaws.com/PeopleSearcherCapture.PNG)
 
 ## Prerequisites 
 These are the required downloads:
