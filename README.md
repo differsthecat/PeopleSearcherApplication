@@ -2,7 +2,7 @@
 
 Welcome to PeopleSearcher! This is a .NET WebAPI application with an Angular 8 front-end. It uses Code First Entity Framework to seed a test database.
 
-![image](https://rmcute-people-searcher.s3.us-east-2.amazonaws.com/PeopleSearcherCapture.PNG)
+![image](https://rmcute-people-searcher.s3.us-east-2.amazonaws.com/PeopleSearcherCapture1.PNG)
 
 ## Prerequisites 
 These are the required downloads:
@@ -16,7 +16,7 @@ These are the required downloads:
 1. Clone this repository.
 2. Open the PeopleSearcher/Angular folder with Visual Studio Code and run `npm install` in the integrated terminal.
 3. Next, run the command `npm run-script start`. The front-end portion of the project will be running at `http://localhost:4200/` but it is not quite ready yet.
-4. Open the PeopleSearcher/PeopleSearcher.sln file with Visual Studio and open the Web.config file in the People Searcher project. Modify the PeopleSearcherContext connection string's Data Source to be the name of your Sql Server (Usually the name of the PC). You can also change the name of the database if you wish here The default is PeopleSearcherContext.
+4. Open the PeopleSearcher/PeopleSearcher.sln file with Visual Studio and open the Web.config file in the People Searcher project. Modify the PeopleSearcherContext connection string's Data Source to be the name of your Sql Server (Usually the name of the PC). You can also change the name of the database here if you wish. The default is PeopleSearcherContext.
 6.  Run the project in Visual Studio.  
     This will start the Api on port 8080. There will be a link on this page to navigate to front-end project located at `http://localhost:4200/`.
 

@@ -40,11 +40,12 @@ i {
     display: inline-block;
     vertical-align: middle;
     font-size: 2.2em;
+    cursor:pointer;
 }
 
 i:hover {
     opacity: 1;
-    cursor: default;
+    cursor:pointer;
 }
 
 #pic {
