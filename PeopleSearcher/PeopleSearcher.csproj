@@ -197,7 +197,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </Content>
     <Content Include="Welcome.css" />
-    <Content Include="Welcome.html" />
+    <Content Include="Index.html" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
