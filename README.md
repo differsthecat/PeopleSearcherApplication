@@ -38,6 +38,7 @@ To run the tests, right click on the PeopleSearcherTest project in Visual Studio
 
 The Angular App uses Karma to test that the components and all of their imports are valid.
 To run these tests, run `npm run-script test` using Command Prompt at the root of the Angular folder.  A Karma test window will either open automatically, or a link will be provided in the output of the Command Prompt. Click `DEBUG` at the top of the Karma browser window to run the tests. The output of the tests will display at the top of the page. 
+
 **Note** These tests only test the creation of the components.
 
 ## Demo video:
